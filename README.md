@@ -12,7 +12,6 @@ To learn how to clean and prepare raw data for machine learning using the Titani
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
 
 ---
 
