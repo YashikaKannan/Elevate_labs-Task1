@@ -6,59 +6,45 @@ To learn how to clean and prepare raw data for machine learning using the Titani
 
 ---
 
-## 🧰 Tools & Libraries Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
----
-
-## 📊 Dataset
-- Source: [Titanic Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+## Dataset
 - File used: `Titanic-Dataset.csv`
 
 ---
 
 ## ✅ Tasks Performed
 
-### 1️⃣ Data Loading & Exploration
+### 1. Data Loading & Exploration
 - Checked data types and missing values using `info()`, `describe()`, and `isnull().sum()`.
 
-### 2️⃣ Handling Missing Values
+### 2. Handling Missing Values
 - Filled missing values in:
   - `Age` with **median**
   - `Embarked` with **mode**
 
-### 3️⃣ Encoding Categorical Variables
+### 3. Encoding Categorical Variables
 - Applied **one-hot encoding** to `Sex` and `Embarked`.
 
-### 4️⃣ Feature Scaling
+### 4. Feature Scaling
 - Applied **StandardScaler** to:
   - `Age`
   - `Fare`
 
-### 5️⃣ Outlier Visualization
+### 5. Outlier Visualization
 - Used **boxplots** to detect outliers in:
   - `Age`
   - `Fare`
 
 ---
 
-## 📁 Files Included
+## Files Included
 - `Data_Cleaning_Preprocessing.py` → Python script containing all preprocessing steps
 - `Titanic-Dataset.cs` → Dataset
 - `Screenshots` → Output
 
 ---
 
-## 📷 Sample Visualizations
-- Boxplots of `Age` and `Fare` after cleaning
 
----
-
-## 🧠 Key Learnings
+##  Key Learnings
 - Efficient handling of missing data
 - Difference between label and one-hot encoding
 - Importance of feature scaling
